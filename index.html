@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script type="text/javascript" src="/javascript/jquery.js"></script>
+    <title>3DJ | Impressão3D caculé</title>
+
+</head>
+<body>
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+
+       $("#subir").hide()
+       $("#rex").hide()
+       $("#vaso").hide()
+       $("#onca").hide()
+       $("#suporte").hide()
+       $("#maquina").hide()
+       $(window).scroll(function(){
+           $("#subir").fadeIn()
+           $("#rex").slideDown()
+           $("#vaso").slideDown()
+           $("#onca").slideDown()
+           $("#suporte").slideDown()
+           $("#maquina").slideDown()
+       });
+    });
+    </script>
+
+    <section id="subir">
+        <button><a id=subirtop href="#">^</a></button>
+    </section>
+
+    <nav class="menu">
+        <a id="logotop" href="#"><img src="fotos/logo.png"></a>
+        <ul id="navegacao">
+            <li><a href="#">home</a></li>
+            <li><a href="#comofunciona">como funciona</a> </li>
+            <li><a href="#fotos">portifolio</a></li>
+          
+            <li><a href="#contact">contato</a></li>
+
+        </ul>
+    </nav>
+<header>
+    
+
+    <h1>Soluções em impressão 3D<br>
+        prototipagem, miniaturas,<br>
+        itens de decoraçãoe muito mais<br>
+        em caculé e região
+    </h1>
+
+    <div class="printfotos">
+       
+        <figure><img id="vaso" src="/fotos/vaso.png" alt="vaso"></figure>
+         <figure><img id="rex" src="/fotos/rexskull.png" alt="rex"></figure>
+        <figure><img id="onca" src="/fotos/onca.png" alt="pantera"></figure>
+        <figure><img id="suporte" src="/fotos/smart.png" alt="smartsuport"></figure>
+        <figure><img id="maquina" src="/fotos/pces.png" alt="pcyes"></figure>
+        
+    </div>
+ 
+
+</header>
+
+<article id="comofunciona">
+    
+    <div class="explicasobre">
+    <h2> COMO FUNCIONA </h2>
+    <p class="texsobre"> Trabalhamos com impreção de arquivos 3D e modelagem<br>
+         Confira como é o nosso modo trabalho </p>
+    </div>
+
+    <div id="imprecao3d">
+    <p ><h1>Impressão 3D</h1>
+
+        <figure id="print3d"> <img src="fotos/imprecao3d.png"></figure>
+
+        Envie pelo watsapp o seu modelo 3D com O link para download
+            Entre em contato para farzemos o orçamento 
+            Assim que aprovado o seu pedido é inicializado
+        
+        <a class="buttonwahts" href="#"><button>whatsapp</button></a>
+    </p> </div>
+
+
+    <div id="modelagem3d">
+        <p ><h1>Modelagem 3D</h1>
+            <figure id="modelagem"><img src="fotos/modelagem3d.png"></figure>
+            Fazemos tudo vira realidade entre em contato e nos conte como você que o seu projeto<br>        
+            faça o que esta em sua mente se torna realizade<br> 
+            trabalhos com os melhores softwares de modelagem 3D
+            Entre em contato para farzemos o orçamento. 
+            <a class="buttonwahtsmodela" href="#"><button>whatsapp</button></a>
+        </p>
+    </div>
+</article>
+
+
+</section>
+
+<section id="fotos">
+
+    <div class="explicasobre">
+    <h1>Portfólio</h1>
+    <p class="texsobre"> confira alguns dos nosso trabalhos</p>
+    </div>
+    
+    <img class="foto" src="fotos/goku.png" alt="goku">
+    <img class="foto" src="fotos/vasovernelho.jpg" alt="vaso">
+    <img class="foto" src="fotos/skullcave.jpg" alt="cranio">
+    <img class="foto" src="fotos/freefire.png" alt="free">
+    <img class="foto" src="fotos/homempenca.jpg" alt="homem">
+    <img class="foto" src="fotos/xadrezzz.jpeg" alt="goku">
+</section>
+
+<section id="contact">
+
+    <h1>Contato</h1>
+    <p>Nos só atendemos no municipio de caculé</p>
+    <a class="buttonwahts" href="#"> <button>contato watsapp</button></a>
+
+    <p> segue la ;D
+        <div class="buttonfollow">  
+        <a class="follofacewbuttons" href="#" > <button id=face>Facebook</button></a>
+        <a class="folloinstwbuttons" href="#"> <button  id="insta"> Instagram </button></a>
+        </div> 
+    </p>
+</section>
+<footer>
+    <p> &copy; Todos os diretos resevados<br>
+        Grupo 3DJ
+    </p>
+</footer>
+
+
+   
+    
+</body>
+</html>
