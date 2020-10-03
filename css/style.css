@@ -316,30 +316,27 @@ header img{
 }
 header #suporte{
 left: 1125px;
-top:350px;
+top:380px;
 }
 
-header #suporte{
-left: 1125px;
-top:330px;
-}
+
 
 header #onca{
     width: 250px;
     left: 1080px;
-    top:440px;
+    top:480px;
 }
 
 header #vaso{
     width: 400px;
     left: 840px;
-    top:370px;
+    top:400px;
 }
 
 header #rex{
     width: 300px;
     left: 830px;
-    top:510px;   
+    top:540px;   
 }
 
 #comofunciona{
